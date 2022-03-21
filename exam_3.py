@@ -1,4 +1,4 @@
-1
+# 1
 
 def credit_card(card):
     return '*' * len(card[:-4]) + card[-4:]
@@ -6,7 +6,7 @@ def credit_card(card):
 
 print(credit_card(input("Enter credit card number: ")))
 
-2
+# 2
 
 def palindrome(data):
     data = data.replace(' ', '').lower()
@@ -15,7 +15,7 @@ def palindrome(data):
 
 print(palindrome(input("Enter a word: ")))
 
-3
+# 3
 
 class Tomato:
     states = {0: 'non', 1: 'green', 2: 'yellow', 3: 'red'}
